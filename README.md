@@ -1,4 +1,4 @@
-# voting-service
+# voting-api
 
 # About
 

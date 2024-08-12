@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sicredi</groupId>
-	<artifactId>voting-service</artifactId>
+	<artifactId>voting-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>voting-service</name>
+	<name>voting-api</name>
 	<description>Voting service for sicredi associates.</description>
 	<properties>
 		<java.version>17</java.version>

@@ -4,6 +4,6 @@ COPY pom.xml /home/app
 RUN mvn -f /home/app/pom.xml clean package -Dmaven.test.skip
 
 FROM eclipse-temurin:17-jre-alpine
-COPY --from=build /home/app/target/voting-service.jar /usr/local/lib/voting-service.jar
+COPY --from=build /home/app/target/voting-api.jar /usr/local/lib/voting-api.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/usr/local/lib/voting-service.jar"]
+ENTRYPOINT ["java","-jar","/usr/local/lib/voting-api.jar"]

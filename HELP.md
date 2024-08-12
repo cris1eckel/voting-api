@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.sicredi.voting-service' is invalid and this project uses 'com.sicredi.votingservice' instead.
+* The original package name 'com.sicredi.voting-api' is invalid and this project uses 'com.sicredi.votingapi' instead.
 
 # Getting Started
 
